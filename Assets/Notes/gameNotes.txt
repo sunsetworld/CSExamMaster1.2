@@ -1,0 +1,3 @@
+Notes:
+
+29/10/2021 - Reverted scripts back to end of Lecture 56 (TextMeshProUGUI).
