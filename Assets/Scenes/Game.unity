@@ -1934,9 +1934,6 @@ MonoBehaviour:
   - {fileID: 1861771911}
   - {fileID: 1826789276}
   - {fileID: 259681497}
-  defaultAnswerSprite: {fileID: 21300000, guid: 5b3460916bef7ba4fa14c99860a14122, type: 3}
-  correctAnswerSprite: {fileID: 21300000, guid: 3e33a28a9e4b51141b37154e2b2d1527, type: 3}
-  timerImage: {fileID: 0}
 --- !u!1 &1826789276
 GameObject:
   m_ObjectHideFlags: 0
