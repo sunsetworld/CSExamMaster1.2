@@ -38,4 +38,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("This should quit the game.");
+        Application.Quit();
+    }
 }
