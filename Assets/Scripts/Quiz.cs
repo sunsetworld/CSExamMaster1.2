@@ -17,8 +17,21 @@ public class Quiz : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GetNextQuestion();
+       // DisplayQuestion();
+    }
+
+    void GetNextQuestion()
+    {
+        SetButtonState(true);
+        SetDefaultButtonSprites();
+        DisplayQuestion();
+    }
+
+    void DisplayQuestion()
+    {
         questionText.text = question.GetQuestion();
-        
+
         for (int i = 0; i < answerButtons.Length; i++)
         {
 
@@ -26,6 +39,18 @@ public class Quiz : MonoBehaviour
             buttonText.text = question.GetAnswer(i);
 
         }
+
+    }
+
+    void SetButtonState(bool state)
+    {
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            Button button = answerButtons[i].GetComponent<Button>();
+            button.interactable = state;
+
+        }
+
     }
 
     public void OnAnswerSelected(int index)
@@ -49,6 +74,16 @@ public class Quiz : MonoBehaviour
             buttonImage.sprite = correctAnswerSprite;
             
         }
+        SetButtonState(false);
     }
+    void SetDefaultButtonSprites()
+    {
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            Image buttonImage = answerButtons[i].GetComponent<Image>();
+            buttonImage.sprite = defaultAnswerSprite;
 
+        }
+
+    }
 }
