@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 047b45c824843094a9bb680b7434d3f8, type: 3}
   m_Name: ProblemSolvingQuestion
   m_EditorClassIdentifier: 
-  question: Enter new question text here
+  question: 'A problem can be solved more easily by:'
   answers:
-  - 
-  - 
-  - 
-  - 
-  CorrectAnswerIndex: 0
+  - 'Taking the bulk of the problem on yourself. '
+  - 'Dividing the problem into smaller problems. '
+  - 'Examining the problem but take little time to complete it. '
+  - 'Getting multiple people to hammer at the problem. '
+  CorrectAnswerIndex: 1

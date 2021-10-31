@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 047b45c824843094a9bb680b7434d3f8, type: 3}
   m_Name: ForLoopQuestion
   m_EditorClassIdentifier: 
-  question: Enter new question text here
+  question: 'What does a For Loop do? '
   answers:
-  - 
-  - 
-  - 
-  - 
+  - 'A For Loop allows an algorithm to be repeated. '
+  - 'A For Loop repeats a section. '
+  - 'A For Loop makes an infinite loop. '
+  - 'A For Loop does an action in a set number of sequences. '
   CorrectAnswerIndex: 0

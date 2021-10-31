@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 047b45c824843094a9bb680b7434d3f8, type: 3}
   m_Name: HelloWorldQuestion
   m_EditorClassIdentifier: 
-  question: Enter new question text here
+  question: Which of these answers will correctly display "Hello World!"?
   answers:
-  - 
-  - 
-  - 
-  - 
-  CorrectAnswerIndex: 0
+  - print(Hello World");
+  - print(Hello World)
+  - print("Hello World")
+  - print(hello world)
+  CorrectAnswerIndex: 2

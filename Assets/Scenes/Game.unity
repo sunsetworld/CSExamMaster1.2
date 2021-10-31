@@ -492,6 +492,7 @@ MonoBehaviour:
   timeToShowCorrectAnswer: 5
   loadNextQuestion: 0
   fillFraction: 0
+  isAnsweringQuestion: 0
 --- !u!4 &143433149
 Transform:
   m_ObjectHideFlags: 0
@@ -1976,7 +1977,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 180456036}
-  question: {fileID: 11400000, guid: a9a59857c0a02884db49cb470bab8066, type: 2}
+  questions:
+  - {fileID: 11400000, guid: 144b3787e7c8ad74b8515298f49aac5c, type: 2}
+  - {fileID: 11400000, guid: 225a46da4dcccfd499a4a91d97b72b6d, type: 2}
+  - {fileID: 11400000, guid: 49f8d4b2bb24f804e86340ad94a4e185, type: 2}
+  - {fileID: 11400000, guid: e35ca50b9fe114d4e9e7be734a26f5ae, type: 2}
+  - {fileID: 11400000, guid: a9a59857c0a02884db49cb470bab8066, type: 2}
   answerButtons:
   - {fileID: 7876774}
   - {fileID: 1861771911}
